@@ -33,8 +33,14 @@ a {
 button,
 input {
   color: currentColor;
+  background-color: transparent;
   font-family: inherit;
   font-size: inherit;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
 }
 
 ul,
